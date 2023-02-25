@@ -129,7 +129,7 @@ document.querySelector(".faqs").innerHTML = faq
     ({ title, content }, idx) =>
       `<div class="faq" id=${idx}>
       <p class="title">${title} <img src='${
-        opened != idx ? "../assets/down.png" : "../assets/up.png"
+        opened != idx ? "/HII/assets/down.png" : "../assets/up.png"
       }'></p>
       <p class="content">${content}</p>
     </div>`
