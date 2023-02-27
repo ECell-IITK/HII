@@ -3,7 +3,7 @@ a {
   transition: text-decoration 1s ease;
   display: block;
   width: max-content;
-  padding: 0 10px
+  padding: 0 10px;
 }
 
 a:hover {
@@ -19,7 +19,7 @@ a:hover {
 
 .register:hover {
   background-color: white;
-  color: #00033F;
+  color: #00033f;
 }
 
 .d-flex {
@@ -31,7 +31,7 @@ a:hover {
 }
 
 .heading {
-  color: #007E7E;
+  color: #007e7e;
   padding-top: 3%;
 }
 
@@ -40,7 +40,7 @@ a:hover {
   height: 80vh;
   position: relative;
   background-image: url("/HII/assets/background/bg-blue.png");
-  background-color: #000D31;
+  background-color: #000d31;
   mix-blend-mode: normal;
   padding-top: 20px;
 }
@@ -56,7 +56,7 @@ a:hover {
 
 #nav div {
   padding: 10px 30px;
-  border: 1.5px solid #00A7B2;
+  border: 1.5px solid #00a7b2;
   box-shadow: 0px 10px 15px 4px rgba(8, 107, 120, 0.25);
   border-radius: 10px;
   background: white;
@@ -68,11 +68,10 @@ a:hover {
 }
 
 #nav a {
-  color: #00033F;
+  color: #00033f;
   text-transform: capitalize;
   text-decoration: none;
   font-size: xx-large;
-
 }
 
 .center {
@@ -113,7 +112,7 @@ section {
 .overview-wrapper {
   border-radius: 20px;
   padding: 20px;
-  background-color: #E3F2F7;
+  background-color: #e3f2f7;
 }
 
 #why-us {
@@ -124,7 +123,6 @@ section {
   background-repeat: no-repeat;
   padding: 100px;
   color: white;
-
 }
 
 #why-us h1 {
@@ -140,10 +138,14 @@ section {
 .why-wrapper {
   display: flex;
   align-items: center;
-  background: linear-gradient(255.95deg, rgba(255, 255, 255, 0.4) 1.57%, rgba(219, 211, 211, 0) 98.52%);
+  background: linear-gradient(
+    255.95deg,
+    rgba(255, 255, 255, 0.4) 1.57%,
+    rgba(219, 211, 211, 0) 98.52%
+  );
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 40px;
-  border: 1px solid #D6FFF8;
+  border: 1px solid #d6fff8;
   padding: 50px;
 }
 
@@ -164,7 +166,6 @@ section {
 .p3 {
   padding-left: 4%;
   font-size: 1.5rem;
-
 }
 
 .overveiw2 {
@@ -178,8 +179,8 @@ section {
   margin: auto;
   width: max-content;
   padding: 10px 30px;
-  background: linear-gradient(177.81deg, #58CCF1 1.83%, #003052 98.16%);
-  border: 1px solid #00D1FF;
+  background: linear-gradient(177.81deg, #58ccf1 1.83%, #003052 98.16%);
+  border: 1px solid #00d1ff;
   border-radius: 10px;
   transition: all 0.2s;
 }
@@ -280,6 +281,8 @@ section {
   font-size: x-large;
   margin: auto;
   text-align: left;
+  text-align: start;
+  max-width: max-content;
 }
 
 #selection {
@@ -303,17 +306,25 @@ section {
 }
 
 #selection .desk {
-  width: 100%;
+  width: 80%;
   max-width: 1400px;
   margin-top: 50px;
-  ;
 }
 
 #selection .mobile {
   display: none;
-  width: 100%;
+  width: 85%;
   max-width: 1400px;
   margin-top: 50px;
+}
+
+#selection .apply {
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+#selection .apply:hover {
+  transform: scale(1.1);
 }
 
 /* //////////// FAQs ///////////// */
@@ -346,9 +357,8 @@ section {
   flex-direction: column;
   align-items: flex-start;
   font-size: large;
-  background: #559EC6;
+  background: #559ec6;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  transition: all 0.2s;
   height: max-content;
 }
 
@@ -387,19 +397,19 @@ section {
 
 .opened .content {
   display: block !important;
+  height: max-content !important;
+  transition: all 0.4s;
 }
 
 .faq p {
   margin: 0;
 }
 
-.opened {
-  padding: 20px;
-}
-
 .faq .content {
   margin-top: 10px;
   display: none;
+  height: 0;
+  transition: all 0.3s;
 }
 
 /* ////////// Quotes Section //////////// */
@@ -411,7 +421,7 @@ section {
   z-index: 100;
   position: absolute;
   top: 0;
-  border: 10px solid #6D6D6D;
+  border: 10px solid #6d6d6d;
   object-fit: cover;
   margin-bottom: 10px;
 }
@@ -424,7 +434,7 @@ section {
   text-align: center;
   position: relative;
   background-image: url("/HII/assets/background/bg-gray.png");
-  background-color: #6D6D6D;
+  background-color: #6d6d6d;
   mix-blend-mode: normal;
   overflow: hidden;
 }
@@ -435,7 +445,7 @@ section {
   padding-top: 100px;
   border-radius: 10px;
   text-transform: uppercase;
-  color: #31374D;
+  color: #31374d;
   font-weight: bold;
   background: rgba(217, 217, 217, 0.79);
   height: 65%;
@@ -457,7 +467,7 @@ section {
 
 .quotes .back-to-top {
   margin-top: 0px;
-  background: #D9D9D9;
+  background: #d9d9d9;
   border-radius: 40px;
   color: black;
   font-size: large;
@@ -595,8 +605,8 @@ a {
 }
 
 footer {
-  background-image: url('/HII/assets/background/footer-bg.png');
-  background-color: #232C49;
+  background-image: url("/HII/assets/background/footer-bg.png");
+  background-color: #232c49;
   mix-blend-mode: normal;
   background-repeat: no-repeat;
   background-size: contain;
@@ -614,6 +624,15 @@ footer div {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  text-align: left;
+}
+
+footer img {
+  max-width: 300px;
+}
+
+footer .socials ul {
+  margin: 20px 0;
 }
 
 @media (max-width: 550px) {
@@ -628,8 +647,8 @@ footer div {
 
   #nav {
     flex-direction: column;
-    bottom: -50%;
-    transform: translateY(-100%);
+    bottom: 0%;
+    transform: translateY(50%);
   }
 
   #nav div {
@@ -667,7 +686,6 @@ footer div {
     height: 80% !important;
   }
 
-
   #eligibility ul li {
     margin: 20px 0;
   }
@@ -688,8 +706,16 @@ footer div {
     width: 80%;
   }
 
+  .faq:hover {
+    transform: scale(1);
+  }
+
   #why-us {
     padding: 100px 20px;
+  }
+
+  #why-us h1 {
+    margin-bottom: 30px;
   }
 
   .why-wrapper {
@@ -706,6 +732,8 @@ footer div {
 
   footer div {
     align-items: center;
+    margin: 20px 0;
+    text-align: center;
   }
 
   footer .socials img {
@@ -726,7 +754,6 @@ footer div {
 
   .faq {
     width: 90%;
-    ;
   }
 
   .center {
