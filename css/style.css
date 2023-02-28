@@ -87,9 +87,25 @@ a:hover {
   text-align: center;
   color: #000749;
   text-transform: capitalize;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   margin-bottom: 50px;
   font-size: 50px;
+  position: relative;
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title::after {
+  display: block;
+  content: '';
+  width: 90%;
+  height: 3px;
+  background: #000749;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 section {
@@ -101,17 +117,14 @@ section {
 }
 
 #overview h1 {
-  padding-left: 5%;
   color: #004949;
-  padding-bottom: 2%;
-  padding-top: 5%;
   text-align: justify;
   text-align: center;
 }
 
 .overview-wrapper {
   border-radius: 20px;
-  padding: 20px;
+  padding: 50px;
   background-color: #e3f2f7;
 }
 
@@ -128,6 +141,7 @@ section {
 #why-us h1 {
   text-transform: capitalize;
   font-weight: bold;
+  font-size: 3.5rem;
 }
 
 #why-us p {
@@ -138,11 +152,9 @@ section {
 .why-wrapper {
   display: flex;
   align-items: center;
-  background: linear-gradient(
-    255.95deg,
-    rgba(255, 255, 255, 0.4) 1.57%,
-    rgba(219, 211, 211, 0) 98.52%
-  );
+  background: linear-gradient(255.95deg,
+      rgba(255, 255, 255, 0.4) 1.57%,
+      rgba(219, 211, 211, 0) 98.52%);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 40px;
   border: 1px solid #d6fff8;
@@ -324,7 +336,7 @@ section {
 }
 
 #selection .apply:hover {
-  transform: scale(1.1);
+  transform: scale(1);
 }
 
 /* //////////// FAQs ///////////// */
@@ -666,6 +678,10 @@ footer .socials ul {
     padding: 150px 20px;
   }
 
+  .overview-wrapper {
+    padding: 30px;
+  }
+
   .carousel .inner {
     height: 60rem;
     width: 90%;
@@ -716,6 +732,7 @@ footer .socials ul {
 
   #why-us h1 {
     margin-bottom: 30px;
+    font-size: 2.5rem;
   }
 
   .why-wrapper {
