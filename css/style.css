@@ -424,6 +424,11 @@ section {
   transition: all 0.3s;
 }
 
+#testimonials .section-title::after,
+#eligibility .section-title::after {
+  background-color: white;
+}
+
 /* ////////// Quotes Section //////////// */
 
 .slide img {
