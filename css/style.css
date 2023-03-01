@@ -1,3 +1,7 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
 a {
   text-decoration: underline solid transparent;
   transition: text-decoration 1s ease;
@@ -94,6 +98,7 @@ a:hover {
   max-width: max-content;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Inria Sans', sans-serif;
 }
 
 .section-title::after {
@@ -120,6 +125,10 @@ section {
   color: #004949;
   text-align: justify;
   text-align: center;
+}
+
+#overview p {
+  font-size: large;
 }
 
 .overview-wrapper {
@@ -355,6 +364,7 @@ section {
   grid-template-rows: max-content;
   grid-auto-rows: min-content;
   grid-auto-flow: dense;
+  font-family: 'Inria Sans', sans-serif;
 }
 
 .faq {
@@ -477,10 +487,21 @@ section {
 
 .quote p {
   margin: 10px 0;
+  color: #31374D;
+  font-family: 'Inria Sans';
+  font-style: italic;
+  text-transform: none;
 }
 
 .quote .name {
   font-size: x-large;
+  font-style: normal;
+  color: black;
+}
+
+.quote .desig {
+  color: #00394B;
+  font-style: normal;
 }
 
 .quotes .back-to-top {
@@ -610,11 +631,11 @@ section {
 }
 
 .dot:hover {
-  background-color: red;
+  background-color: #559ec6;
 }
 
 .dot--active {
-  background-color: red;
+  background-color: #559ec6;
 }
 
 a {
@@ -636,6 +657,7 @@ footer {
   justify-content: space-evenly;
   padding-right: 10px;
   color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 footer div {
