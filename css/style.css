@@ -653,6 +653,10 @@ footer .socials ul {
     padding-bottom: 150px;
   }
 
+  .landing h1 {
+    font-size: 1.5rem;
+  }
+
   .section-title {
     font-size: 40px;
   }
@@ -694,6 +698,10 @@ footer .socials ul {
 
   #eligibility {
     padding: 100px 20px;
+  }
+
+  .btn-arrow {
+    display: none;
   }
 
   .quote {
