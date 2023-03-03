@@ -6,7 +6,8 @@ const faq = [
   },
   {
     title: "Who is Ajay Dubey?",
-    content: "He is an alumnus of IIT Kanpur of Batch 1980.",
+    content:
+      "He graduated from IIT Kanpur in the year 1980 and later held various leadership positions in the technology industry. He served as the Vice President at Infosys, leading the Pune Development Center, and also worked as the COO at Persistent Systems Pvt. Ltd. He is an Angel Investor at Clodura Systems.",
   },
   {
     title: "Is it an institute-supported program or a donor-supported program?",
@@ -47,12 +48,11 @@ const faq = [
   {
     title: "What are the benefits of participating in the program?",
     content: `
-    A chance to immerse in hospitals and medical industries for closely
-    understanding the pain points and identifying challenges in the Indian healthcare system. <br/>
-    Once in a lifetime opportunity to disrupt the Indian healthcare system with innovative technological solutions and impact millions of Indian lives.
+    A chance to immerse in hospitals and medical industries for closely understanding the pain points and identifying challenges in the Indian healthcare system. <br/>
+    An opportunity to disrupt the Indian healthcare system with innovative technological solutions and impact millions of Indian lives. <br/>
     A structured program to experience and train oneself for entrepreneurship in healthcare. <br/>
-    Through field exposure (immersion program) a chance to identify relevant engineering problems in healthcare to solve. <br/>
-    Innovators/ startups are connected with viable funding and networking opportunities to fast-track their growth. Help founders nurture relationships with peers, and facilitate connection with an expert, professional network. <br/>
+    Through field exposure (Summer Internship Program) a chance to identify relevant engineering problems in healthcare to solve. <br/>
+    Innovators/ startups are connected with viable funding and networking opportunities to fast-track their growth. Helps create and nurture relationships with peers, encourages team work, develops problem-solving skills and facilitate connection with an expert, professional network. <br/>
     Get access to an amazing community of business leaders, investors, managers with proven experience, and faculty at IIT Kanpur offering unmatched technical and business expertise. <br/>
     Have access to world-class infrastructure at IIT Kanpur at faculty/student rates. <br/>
     Provide founders access to multiple funding pipelines throughout their startup journey. Programs offer mentorship and technical support across ideation, prototype, and seed stage. Offer some major schemes like SPARSH, BIG, TIDE 2.0, NIDHI EiR, and IAIN across domains.
@@ -76,7 +76,7 @@ const faq = [
   {
     title: "What all costs will be covered?",
     content:
-      "Travel, Accommodation, foodings and any other miscellaneous expenses required to complete the Summer Internship.",
+      "Travel, Accommodation, food and any other miscellaneous expenses required to complete the Summer Internship.",
   },
   {
     title:
@@ -117,12 +117,6 @@ const faq = [
   },
   {
     title:
-      "Will the student get assistance to associate with the agencies for the summer internship program?",
-    content:
-      "It is not meant for that and the Institute will not facilitate this.",
-  },
-  {
-    title:
       "What will happen if the student group will fail to develop a prototype?",
     content:
       "A detailed report needs to be submitted for all projects. Such reports will be signed by a faculty mentor. If the attempt to make the prototype failed for genuine reasons, beyond the control of the group, there will be no consequences.",
@@ -134,7 +128,7 @@ const faq = [
   {
     title: "What after prototype development?",
     content:
-      "In the 5th and 6th semesters, the group will provide assistance to improve upon the prototype and plan for manufacturing as well as commercialization.",
+      "In the 5th and 6th semesters, the SIIC will provide assistance post-incubation to improve upon the prototype and plan for manufacturing as well as commercialization.",
   },
   {
     title: "POC from E Cell, IITK DF and SIIC?",

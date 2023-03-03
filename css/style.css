@@ -326,6 +326,24 @@ section {
   background-repeat: no-repeat;
 }
 
+#register {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 100px;
+  background: #003052
+}
+
+#register .img-div {
+  margin-right: 50px;
+}
+
+#register h1 {
+  /* margin-left: 50px; */
+  font-size: 3.5rem;
+  color: white;
+}
+
 #selection .desk {
   width: 80%;
   max-width: 1400px;
@@ -730,6 +748,27 @@ footer .socials ul {
 
   .btn-arrow {
     display: none;
+  }
+
+  #register {
+    flex-direction: column;
+    padding: 100px 20px;
+  }
+
+  #register h1 {
+    font-size: 2.5rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  #register .img-div {
+    margin-right: 0;
+  }
+
+  #register a {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .quote {
