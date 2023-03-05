@@ -29,12 +29,17 @@ const faq = [
   {
     title: "What is the timeline for the program?",
     content:
-      "Application Start Date: <strong>01/03/2023</strong>, <br/> Application Close Date: <strong>15/03/2023</strong>, <br/> Result Announcement Date: <strong>06/04/2023</strong>",
+      "Application Start Date: <strong>05/03/2023</strong>, <br/> Application Close Date: <strong>20/03/2023</strong>, <br/> Result Announcement Date: <strong>06/04/2023</strong>",
   },
   {
     title: "Who is eligible to participate in the program?",
-    content:
-      "This program will be open to all UG students who have completed their 4th semester and are yet to begin their 5th semester, <br/> Dual Degree students who completed the 6th  Semester will be also eligible, <br/> Students from all the departments, <br/> A team of 3-4 students coming from at least two different departments or an Interdisciplinary team of 3-4 students, <br/> No merit criteria are needed or  Student’s CGPGI shall not be included in the evaluation criteria",
+    content: `<ul>
+        <li>This program will be open to all UG students who have completed their 4th semester and are yet to begin their 5th semester</li>
+        <li>Dual Degree students who completed the 6th  Semester will be also eligible</li>
+        <li>Students from all the departments</li>
+        <li>A team of 3-4 students coming from at least two different departments or an Interdisciplinary team of 3-4 students</li>
+        <li>No merit criteria are needed or Student’s CGPGI shall not be included in the evaluation criteria</li>
+      </ul>`,
   },
   {
     title: "How can I apply for the program?",
@@ -146,7 +151,7 @@ document.querySelector(".faqs").innerHTML = faq
       <p class="title">${title} <img src='${
         opened != idx ? "/HII/assets/down.png" : "/HII/assets/up.png"
       }'></p>
-      <p class="content">${content}</p>
+      <div class="content">${content}</div>
     </div>`
   )
   .join("");
