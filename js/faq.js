@@ -131,7 +131,7 @@ const faq = [
   {
     title: "POC from E Cell, IITK DF and SIIC?",
     content:
-      "<strong>E Cell</strong> - Piyush Raj <strong>rpiyush21@iitk.ac.in</strong>, <br/> <strong>SIIC</strong> - Aditi Kumar <strong>aditikr@iitk.ac.in</strong>, <br/> <strong>IITKDF</strong> - Mradul Verma <strong>programs_dora@iitk.ac.in</strong>",
+      "<strong>E Cell</strong> - Piyush Raj <strong>rpiyush21@iitk.ac.in</strong>, <br/> <strong>SIIC</strong> -  <strong>bioincubatoratiitk@gmail.com</strong>, <br/> <strong>IITKDF</strong> - Mradul Verma <strong>programs_dora@iitk.ac.in</strong>",
   },
   {
     title: "What is Clinical immersion?",

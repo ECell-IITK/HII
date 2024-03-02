@@ -43,7 +43,9 @@ a:hover {
   width: 100%;
   height: 80vh;
   position: relative;
-  background-image: url("/HII/assets/background/bg-blue.png");
+  background-image: url("/HII/assets/HII.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: #000d31;
   mix-blend-mode: normal;
   padding-top: 20px;
