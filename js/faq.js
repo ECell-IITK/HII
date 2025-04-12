@@ -7,7 +7,7 @@ const faq = [
   {
     title: "Who is Mr. Ajay Dubey?",
     content:
-      "He graduated from IIT Kanpur in the year 1980 and later held various leadership positions in the technology industry. He served as the Vice President at Infosys, leading the Pune Development Center, and also worked as the COO at Persistent Systems Pvt. Ltd. He is an Angel Investor at Clodura Systems.",
+      "Mr. Ajay Dubey is a distinguished alumnus of IIT Kanpur (BT/CHE/1980). With a career marked by leadership in the technology sector, he has served as Vice President at Infosys, where he led the Pune Development Center. He later held the position of Chief Operating Officer at Persistent Systems Pvt. Ltd. Currently, he is an active angel investor at Clodura Systems, where he continues to support innovation and drive growth in the startup ecosystem.",
   },
   {
     title: "Is it an institute-supported program or a donor-supported program?",
@@ -29,7 +29,7 @@ const faq = [
   {
     title: "What is the timeline for the program?",
     content:
-      "Application Start Date: <strong>February 15, 2024</strong>, <br/> Application Close Date: <strong>March 15, 2024</strong>",
+      "Application Start Date: <strong>April 07, 2025</strong>, <br/> Application Close Date: <strong>April 30, 2025</strong>, <br/> Primary screening of applications:<strong> 1st-6th May, 2025</strong>,<br/> Interview: <strong>7th-9th May, 2025</strong>,<br/> Announcement of results: <strong>15th May, 2025</strong>,<br/>Sync Event to finalise the problem: <strong>1st week of August, 2025</strong>",
   },
   {
     title: "Who is eligible to participate in the program?",
@@ -40,7 +40,7 @@ const faq = [
   {
     title: "How can I apply for the program?",
     content:
-      "Through the application link attached to the website. To apply to this program please click<a style='display:inline' href='https://forms.gle/2B32XMtqjLBdwoxC7'>here</a>",
+      "Through the application link attached to the website. To apply to this program please click<a style='display:inline' href='https://docs.google.com/forms/d/e/1FAIpQLSfmmws0a6LqUmcCIPGNFbSnk1e3xZ8cmvRWJVO07bEZDNaf9g/viewform'>here</a>",
   },
   {
     title: "Are there any application costs associated with participating?",
@@ -49,17 +49,16 @@ const faq = [
   {
     title: "What are the benefits of participating in the program?",
     content: `
-    A chance to immerse in hospitals and medical industries for closely understanding the pain points and identifying challenges in the Indian healthcare system.
- <br/>
- Once in a lifetime opportunity to disrupt the Indian healthcare system with innovative technological solutions and impact millions of Indian lives. <br/>
- A structured program to experience and train oneself for entrepreneurship in healthcare. <br/>
- Through field exposure (immersion program) a chance to identify relevant
- engineering problems in healthcare to solve.
-  <br/>
-  Innovators/ startups are connected with viable funding and networking opportunities to fast-track their growth. Help founders nurture relationships with peers, and facilitate connection with an expert, professional network. <br/>
-  Get access to an amazing community of business leaders, investors, managers with proven experience, and faculty at IIT Kanpur offering unmatched technical and business expertise. <br/>
-  Have access to world-class infrastructure at IIT Kanpur at faculty/student rates. <br/>
-  Provide founders access to multiple funding pipelines throughout their startup journey. Programs offer mentorship and technical support across ideation, prototype, and seed stage. Offer some major schemes like SPARSH, BIG, TIDE 2.0, NIDHI EiR, and IAIN across domains.
+   <ul> 
+   <li><strong>Clinical Immersion</strong>: Gain firsthand exposure to hospitals and the medical institution to understand real-world challenges in the Indian healthcare system and identify critical problem areas.</li> 
+   <li><strong>Opportunity to Innovate at Scale</strong>: Be part of a unique initiative to develop disruptive, technology-driven solutions that can transform healthcare and impact millions of lives across India.</li>
+   <li><strong>Entrepreneurial Training</strong>: Participate in a structured program designed to equip you with the knowledge, mindset, and tools needed to build and lead a healthcare startup.</li>
+   <li><strong>Field-Driven Problem Identification</strong>: Learn to identify high-impact engineering problems through field immersion and develop context-specific solutions.</li>
+   <li><strong>Funding & Networking Access</strong>: Connect with funding sources, peer networks, and experienced mentors to accelerate your innovation journey and build lasting relationships in the ecosystem.</li>
+   <li><strong>Expert Community Support</strong>: Engage with a robust support system comprising successful entrepreneurs, industry leaders, investors, and IIT Kanpur faculty who bring unparalleled technical and business insights.</li>
+   <li><strong>Infrastructure Access</strong>: Utilize IIT Kanpur’s world-class labs, prototyping facilities, and co-working spaces at subsidized faculty/student rates.</li>
+   <li><strong>Support Across Startup Stages</strong>: Access multiple funding pipelines and mentoring programs across various stages—from ideation to prototyping and seed funding. Leverage national programs like SPARSH, BIG, TIDE 2.0, NIDHI-EIR, and IAIN to support your startup’s growth.</li>
+   </ul>
     `,
   },
   {
@@ -131,7 +130,7 @@ const faq = [
   {
     title: "POC from E Cell, IITK DF and SIIC?",
     content:
-      "<strong>E Cell</strong> - Piyush Raj <strong>rpiyush21@iitk.ac.in</strong>, <br/> <strong>SIIC</strong> -  <strong>bioincubatoratiitk@gmail.com</strong>, <br/> <strong>IITKDF</strong> - Mradul Verma <strong>programs_dora@iitk.ac.in</strong>",
+      "<strong>E Cell</strong> - Piyush Raj <strong>rpiyush21@iitk.ac.in</strong>, <br/> <strong>SIIC</strong> - Dr. Deepti Chugh <strong>deepti@iitkfirst.com</strong>, <br/> <strong>IITKDF</strong> - Mradul Verma <strong>programs_dora@iitk.ac.in</strong>",
   },
   {
     title: "What is Clinical immersion?",
@@ -143,7 +142,7 @@ const faq = [
     content:
       "The fellows of the last cohort went to Sree Chitra Tirunal Institute of Medical Sciences and Technology, Trivandrum, Kerela.",
   },
-  
+
 ];
 
 let opened = -1;
@@ -152,8 +151,7 @@ document.querySelector(".faqs").innerHTML = faq
   .map(
     ({ title, content }, idx) =>
       `<div class="faq" id=${idx}>
-      <p class="title">${title} <img src='${
-        opened != idx ? "/HII/assets/down.png" : "/HII/assets/up.png"
+      <p class="title">${title} <img src='${opened != idx ? "/HII/assets/down.png" : "/HII/assets/up.png"
       }'></p>
       <div class="content">${content}</div>
     </div>`
